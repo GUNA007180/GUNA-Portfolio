@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+  @apply  px-10  ;
+}
+.bg {
+   background: rgba(80,22,94,1)25%;
+  
+}
+.bg-sec{
+ background:radial-gradient(circle,rgba(73,22,94,1)25%,rgba(0,0,0,1)100%);
+ background-size: cover;
+}
+.mobile-navigation {
+  @apply fixed top-8 via-violet-500 w-full  ;
+}
+.mobile-nav ul li{
+  @apply w-full text-center border-b-2 ;
+}
+.img-decoration{
+  @apply animate-pulse ;
+}
+.hi{
+  @apply pl-20 pt-14
+}
+.bg-about{
+  background:radial-gradient(circle,rgb(74, 24, 94)25%,rgba(0,0,0,1)100%);
+  background-size: cover;
+
+}
+.div p{
+  @apply mt-3 p-3
+}
+.bg-skills{
+  background:radial-gradient(circle,rgb(74, 24, 94)25%,rgba(0,0,0,1)100%);
+  background-size: cover;
+}
+.ul-li{
+  @apply font-bold bg-gradient-to-r from-red-700 via-yellow-600 to-red-300 text-transparent bg-clip-text grid  animate-gradient
+}
+.li{
+  height: 30px;
+  background-color: rgb(166, 168, 253);
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 1;
+}
+html{
+  scroll-behavior: smooth;
+}
+.animate-gradient{
+  background-size: 300%;
+  -webkit-animation: animatedgradient 9s ease infinite alternate;
+  -moz-animation:animatedgradient 9s ease infinite alternate ;
+  animation: animatedgradient 9s ease infinite alternate;
+}
+@keyframes animatedgradient {
+  0% {
+    background-position:0% 50%;
+}
+50%{
+  background-position: 100% 50%;
+}
+100%{
+  background-position: 0% 50%;
+}
+}
