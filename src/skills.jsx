@@ -3,7 +3,7 @@ import li from './picture/star.png'
 
 function Skills() {
   return (
-    <section className='bg-skills pb-20' id='skills' >
+    <section class='bg-sec pb-20' id='skills' >
         <h1 className='text-2xl  text-green-300 pl-20 font-bold'  >Skills</h1>
 
         <ul className='text-3xl font-you text-center p-10 m-5 flex justify-center md:' >
