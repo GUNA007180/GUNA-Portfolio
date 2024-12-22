@@ -5,7 +5,7 @@ import gmail from './picture/email.png'
 function Contact() {
     return (
        <section id='contact'>
-         <div className='bg-about h-3/6' >
+         <div class='bg-sec h-3/6' >
             <h1 className='text-2xl  text-green-300 pl-16 font-bold' >Contact</h1>
             <div className='place-items-center'>
 
