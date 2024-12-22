@@ -7,7 +7,7 @@ import react from './picture/react.png'
 function About() {
   return (
     <section id='about'>
-        <div className='bg-about h-3/6'>
+        <div class='bg-sec h-3/6'>
       <section >
         <h1 className='text-2xl  text-green-300 pl-20 font-bold'>About Me</h1>
       </section>
