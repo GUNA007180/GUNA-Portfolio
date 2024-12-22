@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Header() {
     const [menu, setmenu] = useState(false);
     return (
-        <header class='flex justify-between px-4 pt-2 bg-black'>
+        <header class='flex justify-between px-4 pt-2 'style={{background: "rgb(113, 16, 151)"}}>
             <a className="font-bold text-gray-100" href='I'>GUNA</a>
             <nav className='hidden md:block'>
                 <ul className='flex' style={{ color: "white" }}>
