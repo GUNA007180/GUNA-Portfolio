@@ -8,7 +8,7 @@ import Li from './picture/linked-in.png'
 function Me() {
   return (
     <>
-      <section class='flex flex-row-reverse  pt-20 bg-sec justify-between pb-20 h-full '>
+      <section class='flex flex-row-reverse  pt-20 justify-between pb-20 h-full ' style={{background:"radial-gradient(circle,rgba(73,22,94,1)25%,rgba(0,0,0,1)100%)",backgroundSize: "cover"}}>
 
         <div className='w-1/2  text-6xl  pl-8 p-2 '>
           <h1 className='hi font-me'>
