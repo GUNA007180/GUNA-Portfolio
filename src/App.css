@@ -25,18 +25,10 @@ header ul li {
 .hi{
   @apply pl-20 pt-14
 }
-.bg-about{
-  background:radial-gradient(circle,rgb(74, 24, 94)25%,rgba(0,0,0,1)100%);
-  background-size: cover;
-
-}
 .div p{
   @apply mt-3 p-3
 }
-.bg-skills{
-  background:radial-gradient(circle,rgb(74, 24, 94)25%,rgba(0,0,0,1)100%);
-  background-size: cover;
-}
+
 .ul-li{
   @apply font-bold bg-gradient-to-r from-red-700 via-yellow-600 to-red-300 text-transparent bg-clip-text grid  animate-gradient
 }
