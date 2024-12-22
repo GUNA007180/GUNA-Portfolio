@@ -3,7 +3,7 @@ import li from './picture/star.png'
 
 function Skills() {
   return (
-    <section class='bg-sec pb-20' id='skills' >
+    <section class=' pb-20' id='skills' style={{background:"radial-gradient(circle,rgba(73,22,94,1)25%,rgba(0,0,0,1)100%)",backgroundSize: "cover"}} >
         <h1 className='text-2xl  text-green-300 pl-20 font-bold'  >Skills</h1>
 
         <ul className='text-3xl font-you text-center p-10 m-5 flex justify-center md:' >
