@@ -7,7 +7,7 @@ import react from './picture/react.png'
 function About() {
   return (
     <section id='about'>
-        <div class='bg-sec h-3/6'style={{background:"radial-gradient(circle,rgba(73,22,94,1)25%,rgba(0,0,0,1)100%)",backgroundSize: "cover"}} >
+        <div class=' h-3/6'style={{background:"radial-gradient(circle,rgba(73,22,94,1)25%,rgba(0,0,0,1)100%)",backgroundSize: "cover"}} >
       <section >
         <h1 className='text-2xl  text-green-300 pl-20 font-bold'>About Me</h1>
       </section>
